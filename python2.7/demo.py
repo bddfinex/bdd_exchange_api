@@ -24,7 +24,7 @@ class RequestClient(object):
     def __init__(self, headers={}):
         self.apikey = ''      	# replace
         self.apisecret = ''     # replace
-        self.url = 'http://api.patinfo.cn'
+        self.url = 'https://api.bddfinex.com'
         self.headers = self.__headers
         self.headers.update(headers)
 
